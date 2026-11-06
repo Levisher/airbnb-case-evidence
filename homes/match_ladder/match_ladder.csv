@@ -1,0 +1,73 @@
+market,rival,radius_source,radius_m,rung,known_pairs,recovered,recovered_pct,recovered_lo,recovered_hi,recovered_single_key_pct,single_key_pairs,false_pairs,false_on_keyed_listing,false_on_unkeyed_listing,no_pick,precision_pct,placebo_false_pairs,placebo_false_pct,placebo_lo,placebo_hi,unkeyed_rows,unkeyed_picked,keyed_unjoined_rows,keyed_unjoined_picked,implied_true_share_of_unkeyed_pct
+san_diego,booking,own p95 (in sample),136,rung2_nearest,285,191,67.0,61.4,72.2,63.4,191,93,93,0,1,67.3,262,91.9,88.2,94.6,28,24,28,20,
+san_diego,booking,own p95 (in sample),136,rung2_unique,285,19,6.7,4.3,10.2,9.4,191,4,4,0,262,82.6,25,8.8,6.0,12.6,28,2,28,3,
+san_diego,booking,own p95 (in sample),136,rung3_beds_nearest,285,196,68.8,63.2,73.9,67.0,191,73,72,1,16,72.9,212,74.4,69.0,79.1,28,22,28,12,
+san_diego,booking,own p95 (in sample),136,rung3_beds_unique,285,51,17.9,13.9,22.8,24.1,191,4,4,0,230,92.7,43,15.1,11.4,19.7,28,4,28,2,-28.6
+san_diego,booking,own p95 (in sample),136,rung3_beds_cap_nearest,285,197,69.1,63.5,74.2,67.0,191,72,71,1,16,73.2,211,74.0,68.6,78.8,28,22,28,12,
+san_diego,booking,own p95 (in sample),136,rung3_beds_cap_unique,285,51,17.9,13.9,22.8,24.1,191,4,4,0,230,92.7,43,15.1,11.4,19.7,28,4,28,2,-28.6
+san_diego,booking,other market p95 (out of sample),157,rung2_nearest,285,192,67.4,61.7,72.5,63.9,191,93,93,0,0,67.4,267,93.7,90.2,96.0,28,24,28,20,
+san_diego,booking,other market p95 (out of sample),157,rung2_unique,285,15,5.3,3.2,8.5,7.3,191,0,0,0,270,100.0,19,6.7,4.3,10.2,28,2,28,1,
+san_diego,booking,other market p95 (out of sample),157,rung3_beds_nearest,285,199,69.8,64.3,74.9,68.1,191,77,76,1,9,72.1,221,77.5,72.4,82.0,28,22,28,13,
+san_diego,booking,other market p95 (out of sample),157,rung3_beds_unique,285,48,16.8,12.9,21.6,23.6,191,4,4,0,233,92.3,42,14.7,11.1,19.3,28,3,28,2,-191.1
+san_diego,booking,other market p95 (out of sample),157,rung3_beds_cap_nearest,285,200,70.2,64.6,75.2,68.1,191,76,75,1,9,72.5,219,76.8,71.6,81.4,28,22,28,13,
+san_diego,booking,other market p95 (out of sample),157,rung3_beds_cap_unique,285,49,17.2,13.3,22.0,24.1,191,4,4,0,232,92.5,42,14.7,11.1,19.3,28,3,28,2,-163.8
+san_diego,booking,operating radius in ro_overlap_lib,200,rung2_nearest,285,192,67.4,61.7,72.5,63.9,191,93,93,0,0,67.4,274,96.1,93.2,97.8,28,25,28,27,
+san_diego,booking,operating radius in ro_overlap_lib,200,rung2_unique,285,10,3.5,1.9,6.3,4.7,191,0,0,0,275,100.0,15,5.3,3.2,8.5,28,3,28,2,
+san_diego,booking,operating radius in ro_overlap_lib,200,rung3_beds_nearest,285,199,69.8,64.3,74.9,68.1,191,79,78,1,7,71.6,234,82.1,77.2,86.1,28,25,28,20,
+san_diego,booking,operating radius in ro_overlap_lib,200,rung3_beds_unique,285,39,13.7,10.2,18.2,19.4,191,2,2,0,244,95.1,42,14.7,11.1,19.3,28,3,28,5,
+san_diego,booking,operating radius in ro_overlap_lib,200,rung3_beds_cap_nearest,285,200,70.2,64.6,75.2,68.1,191,78,77,1,7,71.9,233,81.8,76.9,85.8,28,25,28,20,
+san_diego,booking,operating radius in ro_overlap_lib,200,rung3_beds_cap_unique,285,39,13.7,10.2,18.2,19.4,191,2,2,0,244,95.1,43,15.1,11.4,19.7,28,3,28,5,
+san_diego,vrbo,own p95 (in sample),403,rung2_nearest,242,108,44.6,38.5,50.9,43.1,195,133,133,0,1,44.8,235,97.1,94.2,98.6,48,30,55,54,
+san_diego,vrbo,own p95 (in sample),403,rung2_unique,242,5,2.1,0.9,4.7,2.6,195,2,2,0,235,71.4,9,3.7,2.0,6.9,48,1,55,2,
+san_diego,vrbo,own p95 (in sample),403,rung3_beds_nearest,242,137,56.6,50.3,62.7,57.9,195,100,99,1,5,57.8,209,86.4,81.5,90.1,48,29,55,47,
+san_diego,vrbo,own p95 (in sample),403,rung3_beds_unique,242,26,10.7,7.4,15.3,12.3,195,3,3,0,213,89.7,17,7.0,4.4,11.0,48,1,55,6,-132.9
+san_diego,vrbo,own p95 (in sample),403,rung3_beds_cap_nearest,242,152,62.8,56.6,68.7,64.6,195,71,71,0,19,68.2,166,68.6,62.5,74.1,48,28,55,35,
+san_diego,vrbo,own p95 (in sample),403,rung3_beds_cap_unique,242,54,22.3,17.5,28.0,25.6,195,7,7,0,181,88.5,35,14.5,10.6,19.4,48,2,55,5,-131.1
+san_diego,vrbo,other market p95 (out of sample),499,rung2_nearest,242,108,44.6,38.5,50.9,43.1,195,133,133,0,1,44.8,238,98.3,95.8,99.4,48,30,55,55,
+san_diego,vrbo,other market p95 (out of sample),499,rung2_unique,242,2,0.8,0.2,3.0,1.0,195,0,0,0,240,100.0,5,2.1,0.9,4.7,48,1,55,0,
+san_diego,vrbo,other market p95 (out of sample),499,rung3_beds_nearest,242,140,57.9,51.6,63.9,59.5,195,101,100,1,1,58.1,218,90.1,85.7,93.2,48,29,55,49,
+san_diego,vrbo,other market p95 (out of sample),499,rung3_beds_unique,242,21,8.7,5.7,12.9,10.3,195,1,1,0,220,95.5,13,5.4,3.2,9.0,48,1,55,4,-99.5
+san_diego,vrbo,other market p95 (out of sample),499,rung3_beds_cap_nearest,242,156,64.5,58.2,70.2,66.2,195,72,72,0,14,68.4,175,72.3,66.4,77.6,48,28,55,39,
+san_diego,vrbo,other market p95 (out of sample),499,rung3_beds_cap_unique,242,50,20.7,16.0,26.2,23.6,195,4,4,0,188,92.6,32,13.2,9.5,18.1,48,2,55,5,-121.8
+san_diego,vrbo,operating radius in ro_overlap_lib,520,rung2_nearest,242,108,44.6,38.5,50.9,43.1,195,133,133,0,1,44.8,238,98.3,95.8,99.4,48,30,55,55,
+san_diego,vrbo,operating radius in ro_overlap_lib,520,rung2_unique,242,2,0.8,0.2,3.0,1.0,195,0,0,0,240,100.0,5,2.1,0.9,4.7,48,1,55,0,
+san_diego,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_nearest,242,140,57.9,51.6,63.9,59.5,195,101,100,1,1,58.1,219,90.5,86.1,93.6,48,29,55,49,
+san_diego,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_unique,242,20,8.3,5.4,12.4,10.3,195,1,1,0,221,95.2,13,5.4,3.2,9.0,48,1,55,4,-113.7
+san_diego,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_cap_nearest,242,157,64.9,58.7,70.6,66.7,195,72,72,0,13,68.6,177,73.1,67.2,78.3,48,28,55,39,
+san_diego,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_cap_unique,242,49,20.2,15.7,25.8,23.1,195,4,4,0,189,92.5,31,12.8,9.2,17.6,48,2,55,5,-116.2
+seattle,booking,own p95 (in sample),157,rung2_nearest,508,260,51.2,46.8,55.5,50.6,358,245,242,3,3,51.5,454,89.4,86.4,91.8,215,153,50,45,
+seattle,booking,own p95 (in sample),157,rung2_unique,508,43,8.5,6.3,11.2,10.9,358,2,2,0,463,95.6,53,10.4,8.1,13.4,215,31,50,4,
+seattle,booking,own p95 (in sample),157,rung3_beds_nearest,508,299,58.9,54.5,63.1,58.9,358,190,185,5,19,61.1,344,67.7,63.5,71.6,215,122,50,39,
+seattle,booking,own p95 (in sample),157,rung3_beds_unique,508,127,25.0,21.4,28.9,26.8,358,12,11,1,369,91.4,90,17.7,14.6,21.3,215,47,50,10,56.9
+seattle,booking,own p95 (in sample),157,rung3_beds_cap_nearest,508,299,58.9,54.5,63.1,58.9,358,190,185,5,19,61.1,343,67.5,63.3,71.4,215,122,50,39,
+seattle,booking,own p95 (in sample),157,rung3_beds_cap_unique,508,127,25.0,21.4,28.9,26.8,358,12,11,1,369,91.4,89,17.5,14.5,21.1,215,47,50,10,58.0
+seattle,booking,other market p95 (out of sample),136,rung2_nearest,508,259,51.0,46.6,55.3,50.3,358,245,242,3,4,51.4,436,85.8,82.5,88.6,215,144,50,45,
+seattle,booking,other market p95 (out of sample),136,rung2_unique,508,54,10.6,8.2,13.6,13.7,358,12,12,0,442,81.8,62,12.2,9.6,15.3,215,46,50,7,
+seattle,booking,other market p95 (out of sample),136,rung3_beds_nearest,508,291,57.3,52.9,61.5,57.3,358,185,180,5,32,61.1,316,62.2,57.9,66.3,215,104,50,33,
+seattle,booking,other market p95 (out of sample),136,rung3_beds_unique,508,139,27.4,23.7,31.4,29.1,358,17,16,1,352,89.1,82,16.1,13.2,19.6,215,38,50,12,13.7
+seattle,booking,other market p95 (out of sample),136,rung3_beds_cap_nearest,508,291,57.3,52.9,61.5,57.3,358,185,180,5,32,61.1,316,62.2,57.9,66.3,215,104,50,33,
+seattle,booking,other market p95 (out of sample),136,rung3_beds_cap_unique,508,139,27.4,23.7,31.4,29.1,358,17,16,1,352,89.1,82,16.1,13.2,19.6,215,38,50,12,13.7
+seattle,booking,operating radius in ro_overlap_lib,200,rung2_nearest,508,260,51.2,46.8,55.5,50.6,358,246,243,3,2,51.4,482,94.9,92.6,96.5,215,154,50,46,
+seattle,booking,operating radius in ro_overlap_lib,200,rung2_unique,508,20,3.9,2.6,6.0,5.6,358,0,0,0,488,100.0,40,7.9,5.8,10.5,215,8,50,4,
+seattle,booking,operating radius in ro_overlap_lib,200,rung3_beds_nearest,508,300,59.1,54.7,63.2,59.2,358,195,190,5,13,60.6,373,73.4,69.4,77.1,215,124,50,39,
+seattle,booking,operating radius in ro_overlap_lib,200,rung3_beds_unique,508,107,21.1,17.7,24.8,23.2,358,10,9,1,391,91.5,74,14.6,11.8,17.9,215,27,50,5,-30.9
+seattle,booking,operating radius in ro_overlap_lib,200,rung3_beds_cap_nearest,508,300,59.1,54.7,63.2,59.2,358,195,190,5,13,60.6,372,73.2,69.2,76.9,215,124,50,39,
+seattle,booking,operating radius in ro_overlap_lib,200,rung3_beds_cap_unique,508,107,21.1,17.7,24.8,23.2,358,10,9,1,391,91.5,73,14.4,11.6,17.7,215,27,50,5,-27.1
+seattle,vrbo,own p95 (in sample),499,rung2_nearest,347,116,33.4,28.7,38.6,33.2,232,231,225,6,0,33.4,346,99.7,98.4,99.9,32,29,52,52,
+seattle,vrbo,own p95 (in sample),499,rung2_unique,347,1,0.3,0.1,1.6,0.4,232,0,0,0,346,100.0,2,0.6,0.2,2.1,32,2,52,0,
+seattle,vrbo,own p95 (in sample),499,rung3_beds_nearest,347,176,50.7,45.5,55.9,52.2,232,169,165,4,2,51.0,311,89.6,86.0,92.4,32,28,52,51,
+seattle,vrbo,own p95 (in sample),499,rung3_beds_unique,347,32,9.2,6.6,12.7,10.3,232,2,2,0,313,94.1,25,7.2,4.9,10.4,32,5,52,5,417.4
+seattle,vrbo,own p95 (in sample),499,rung3_beds_cap_nearest,347,202,58.2,53.0,63.3,58.2,232,120,118,2,25,62.7,235,67.7,62.6,72.4,32,25,52,41,
+seattle,vrbo,own p95 (in sample),499,rung3_beds_cap_unique,347,78,22.5,18.4,27.2,25.0,232,12,12,0,257,86.7,57,16.4,12.9,20.7,32,9,52,7,193.3
+seattle,vrbo,other market p95 (out of sample),403,rung2_nearest,347,116,33.4,28.7,38.6,33.2,232,230,224,6,1,33.5,344,99.1,97.5,99.7,32,29,52,52,
+seattle,vrbo,other market p95 (out of sample),403,rung2_unique,347,2,0.6,0.2,2.1,0.9,232,0,0,0,345,100.0,11,3.2,1.8,5.6,32,2,52,0,
+seattle,vrbo,other market p95 (out of sample),403,rung3_beds_nearest,347,171,49.3,44.1,54.5,51.7,232,166,162,4,10,50.7,299,86.2,82.1,89.4,32,27,52,49,
+seattle,vrbo,other market p95 (out of sample),403,rung3_beds_unique,347,37,10.7,7.8,14.4,12.9,232,8,7,1,302,82.2,37,10.7,7.8,14.4,32,8,52,9,
+seattle,vrbo,other market p95 (out of sample),403,rung3_beds_cap_nearest,347,193,55.6,50.4,60.8,57.8,232,115,113,2,39,62.7,218,62.8,57.6,67.7,32,22,52,37,
+seattle,vrbo,other market p95 (out of sample),403,rung3_beds_cap_unique,347,82,23.6,19.5,28.4,29.7,232,15,15,0,250,84.5,67,19.3,15.5,23.8,32,10,52,11,276.2
+seattle,vrbo,operating radius in ro_overlap_lib,520,rung2_nearest,347,116,33.4,28.7,38.6,33.2,232,231,225,6,0,33.4,346,99.7,98.4,99.9,32,29,52,52,
+seattle,vrbo,operating radius in ro_overlap_lib,520,rung2_unique,347,1,0.3,0.1,1.6,0.4,232,0,0,0,346,100.0,2,0.6,0.2,2.1,32,2,52,0,
+seattle,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_nearest,347,176,50.7,45.5,55.9,52.2,232,170,166,4,1,50.9,315,90.8,87.3,93.4,32,28,52,51,
+seattle,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_unique,347,29,8.4,5.9,11.7,9.1,232,3,3,0,315,90.6,24,6.9,4.7,10.1,32,5,52,5,604.4
+seattle,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_cap_nearest,347,203,58.5,53.3,63.6,58.2,232,121,119,2,23,62.7,239,68.9,63.8,73.5,32,25,52,42,
+seattle,vrbo,operating radius in ro_overlap_lib,520,rung3_beds_cap_unique,347,76,21.9,17.9,26.5,23.7,232,11,11,0,260,87.4,57,16.4,12.9,20.7,32,9,52,8,213.7

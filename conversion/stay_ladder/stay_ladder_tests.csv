@@ -1,0 +1,59 @@
+block,metric,group,value,unit,n,note
+selection,Extra rate per stay beyond selection (delta),stays,1.256702425397253,ratio,7468575,"LR 4487.9, p 0"
+selection,"Share of stay 1 to 5 rise reproduced, selection-only refit",stays,87.12776241017714,pct,7468575,"alpha 8.11, a0 0.732"
+selection,Share of stay 1 to 5 rise left at delta 0 in the free fit,stays,46.928768159981715,pct,7468575,"alpha 21.95, a0 1.844, delta 1.257"
+selection,Observed less selection-only at stay 5,stays,5.925284570110968,points,7468575,
+selection,"Selection-only share, 95% interval",stays,85.3 to 89.1,pct,150,"Poisson resampling of cells, clustered guests not resampled"
+selection,Extra rate per stay beyond selection (delta),trips,0.2894661216725542,ratio,7106648,"LR 541.4, p 9.37e-120"
+selection,"Share of stay 1 to 5 rise reproduced, selection-only refit",trips,87.06330349472259,pct,7106648,"alpha 7.06, a0 0.492"
+selection,Share of stay 1 to 5 rise left at delta 0 in the free fit,trips,73.3033425831147,pct,7106648,"alpha 10.03, a0 0.675, delta 0.289"
+selection,Observed less selection-only at stay 5,trips,6.434347450662514,points,7106648,
+selection,"Selection-only share, 95% interval",trips,85.0 to 89.4,pct,150,"Poisson resampling of cells, clustered guests not resampled"
+selection,Extra rate per stay beyond selection (delta),stays first seen 2022+,26019.639183955165,ratio,4786702,"LR 1189.7, p 1.08e-260"
+selection,"Share of stay 1 to 5 rise reproduced, selection-only refit",stays first seen 2022+,86.89795198937219,pct,4786702,"alpha 8.60, a0 0.875"
+selection,Share of stay 1 to 5 rise left at delta 0 in the free fit,stays first seen 2022+,0.004784459050443288,pct,4786702,"alpha 270320.28, a0 24708.713, delta 26019.639"
+selection,Observed less selection-only at stay 5,stays first seen 2022+,6.639312903434863,points,4786702,
+selection,Extra rate per stay beyond selection (delta),trips first seen 2022+,-0.15430976612068398,ratio,4533650,"LR 23.3, p 1.36e-06"
+selection,"Share of stay 1 to 5 rise reproduced, selection-only refit",trips first seen 2022+,87.64472119729629,pct,4533650,"alpha 6.72, a0 0.534"
+selection,Share of stay 1 to 5 rise left at delta 0 in the free fit,trips first seen 2022+,96.66761334906609,pct,4533650,"alpha 5.38, a0 0.440, delta -0.154"
+selection,Observed less selection-only at stay 5,trips first seen 2022+,7.204307119237271,points,4533650,
+gap by frequency,"Median gaps, lifetime stays 4",first seen 2022-23,"228, 194, 186",days,40183,third against first -18.4%
+gap by frequency,"Median gaps, lifetime stays 5",first seen 2022-23,"187, 152, 143",days,16011,third against first -23.5%
+gap by frequency,"Median gaps, lifetime stays 6",first seen 2022-23,"147, 118, 107",days,7009,third against first -27.2%
+gap by frequency,"Median gaps, lifetime stays 7+",first seen 2022-23,"101, 72, 64",days,9498,third against first -36.6%
+"gap, guest fixed effects","Change against first gap, second and third",all stays,"-20.8, -25.8",pct,191520,Guest fixed effects on log gap
+"gap, guest fixed effects","Change against first gap, second and third","stays, first seen 2021+","-12.9, -16.6",pct,155337,Guest fixed effects on log gap
+"gap, guest fixed effects","Change against first gap, second and third","stays, first seen 2022+","-11.0, -15.6",pct,133713,Guest fixed effects on log gap
+"gap, guest fixed effects","Change against first gap, second and third","stays, first seen to 2023","-26.3, -31.3",pct,130508,Guest fixed effects on log gap
+"gap, guest fixed effects","Change against first gap, second and third","stays, first seen 2022-23","-13.7, -18.2",pct,72701,Guest fixed effects on log gap
+"gap, guest fixed effects","Change against first gap, second and third",trips,"-21.3, -23.8",pct,120145,Guest fixed effects on log gap
+"gap, guest fixed effects","Change against first gap, second and third","trips, first seen 2022+","-12.9, -15.0",pct,75459,Guest fixed effects on log gap
+"gap, guest fixed effects","Change against first gap, second and third","trips, first seen 2022-23","-15.1, -16.9",pct,48073,Guest fixed effects on log gap
+gap by first year,Median gaps,2019,"808, 303, 239",days,24836,
+gap by first year,Median gaps,2020,"422, 194, 189",days,11347,
+gap by first year,Median gaps,2021,"253, 192, 197",days,21624,
+gap by first year,Median gaps,2022,"219, 178, 172",days,37007,
+gap by first year,Median gaps,2023,"155, 128, 117",days,35694,
+gap by first year,Median gaps,2024,"83, 68, 62",days,30393,
+gap by first year,Median gaps,2025,"24, 23, 21",days,22223,
+gap by first year,Median gaps,2026,"7, 7, 7",days,8396,
+gap sign test,"Shorter share excluding ties, second against first",first seen 2022+,52.477744122757116,pct,130078,z 17.9
+gap sign test,"Shorter share excluding ties, third against second",first seen 2022+,50.874900055353955,pct,130072,z 6.3
+gap null simulation,Median gaps with no change in behaviour,observed stay rate drifting 0% a year,"230, 230, 232",days,27951,third against first 0.6%
+gap null simulation,Median gaps with no change in behaviour,observed stay rate drifting 4% a year,"237, 228, 223",days,35746,third against first -5.6%
+gap null simulation,Median gaps with no change in behaviour,observed stay rate drifting 8% a year,"242, 227, 214",days,45600,third against first -11.5%
+gap null simulation,Median gaps with no change in behaviour,observed stay rate drifting 18% a year,"256, 218, 190",days,82400,third against first -25.9%
+calendar drift,Yearly change in return hazard at fixed stay number,"stay 1, 2021 to 2024",3.855942403919036,pct a year,,
+calendar drift,Yearly change in return hazard at fixed stay number,"stay 2, 2021 to 2024",-1.0854257596486048,pct a year,,
+calendar drift,Yearly change in return hazard at fixed stay number,"stay 3, 2021 to 2024",-2.5876507177916124,pct a year,,
+calendar drift,Yearly change in return hazard at fixed stay number,"stay 4, 2021 to 2024",-2.131718984182581,pct a year,,
+calendar drift,Yearly change in return hazard at fixed stay number,"stay 5, 2021 to 2024",0.43176371156048293,pct a year,,
+calendar drift,Yearly change in return hazard at fixed stay number,"stay 6, 2021 to 2024",0.8150379573050035,pct a year,,
+snapshot loss,Reviews in Dec 2025 files absent in Sep 2026,2019,13.747436385261338,pct,417867,"Paris, Barcelona, Los Angeles"
+snapshot loss,Reviews in Dec 2025 files absent in Sep 2026,2020,13.348059837250476,pct,184701,"Paris, Barcelona, Los Angeles"
+snapshot loss,Reviews in Dec 2025 files absent in Sep 2026,2021,12.969794531267468,pct,313089,"Paris, Barcelona, Los Angeles"
+snapshot loss,Reviews in Dec 2025 files absent in Sep 2026,2022,13.072773334992023,pct,594847,"Paris, Barcelona, Los Angeles"
+snapshot loss,Reviews in Dec 2025 files absent in Sep 2026,2023,14.274023156524,pct,777146,"Paris, Barcelona, Los Angeles"
+snapshot loss,Reviews in Dec 2025 files absent in Sep 2026,2024,15.25368403929498,pct,928261,"Paris, Barcelona, Los Angeles"
+snapshot loss,Reviews in Dec 2025 files absent in Sep 2026,2025,17.332584118136253,pct,1112275,"Paris, Barcelona, Los Angeles"
+measurement,Rise in review probability needed for the first seen 2022+ fall, third against first,18.497452304775443,pct,,Fixed-effect fall of 15.6%

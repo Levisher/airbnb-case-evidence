@@ -1,0 +1,13 @@
+item,rows
+Rows Booking.com reported for Seattle,801
+Rows used after hotel and market filters,773
+Rows with a licence number,558
+Keyed rows found in the Airbnb file,543
+Keyed rows absent from the Airbnb file,15
+Rows with no licence number,215
+Unkeyed rows flagged not required,215
+Reported rows outside the used set,28
+"Of those, unread",8
+"Of those, hotel types",10
+"Of those, outside the market",10
+Distinct licence numbers joined,420

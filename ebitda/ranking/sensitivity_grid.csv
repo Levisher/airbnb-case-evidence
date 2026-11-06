@@ -1,0 +1,17 @@
+period,term,term_value,effect_pct_of_ebitda
+FY25,N nights,533.0,2.08
+FY25,G GBV per night,171.2439,2.85
+FY25,t take rate,0.1341,2.85
+FY25,V variable cost per night,6.2345,-0.77
+FY25,M marketing,1595.0,-0.37
+FY25,F fixed cost,3026.0,-0.7
+FY25,G with 2% payment cost,,2.42
+FY25,N with marketing per night,,1.7
+TTM Q3 26,N nights,581.4,2.03
+TTM Q3 26,G GBV per night,179.8538,2.75
+TTM Q3 26,t take rate,0.1332,2.75
+TTM Q3 26,V variable cost per night,6.259,-0.72
+TTM Q3 26,M marketing,1953.0,-0.38
+TTM Q3 26,F fixed cost,3266.0,-0.64
+TTM Q3 26,G with 2% payment cost,,2.33
+TTM Q3 26,N with marketing per night,,1.64

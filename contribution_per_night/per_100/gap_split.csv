@@ -1,0 +1,36 @@
+section,item,per_100,share_of_gap,note
+gap_airbnb_less_sonder,property line: left after direct and support,0.1,0.003,"Airbnb keeps 13.57 and Sonder 100, and both land near 9.7"
+gap_airbnb_less_sonder,sales and marketing,10.93,0.336,Model: Sonder rents demand from OTAs
+gap_airbnb_less_sonder,non-recurring professional fees,3.86,0.119,Rescue cost: Marriott agreement and financing
+gap_airbnb_less_sonder,"impairment, integration, restructuring",2.92,0.09,Rescue and exit cost. Impairment also recurred in FY2022 and FY2023.
+gap_airbnb_less_sonder,VAT and bad debt increases,3.4,0.104,"Possible distress, year-on-year increases in G&A, cause not proven"
+gap_airbnb_less_sonder,remaining overhead gap,11.31,0.348,Scale: about $95m of G&A and R&D on $621m of revenue
+gap_airbnb_less_sonder,"total gap, GAAP operating income",32.51,1.0,Sum of the lines above
+sonder_trend_per_100_revenue,FY2023: direct costs,65.26,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2023: support and operations,35.36,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2023: left after direct and support,-0.62,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2023: sales and marketing,13.05,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2023: overhead and stock pay,22.33,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2023: special lines,10.18,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2023: operating income,-46.18,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2024: direct costs,60.72,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2024: support and operations,29.67,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2024: left after direct and support,9.61,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2024: sales and marketing,13.56,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2024: overhead and stock pay,22.52,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2024: special lines,2.92,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,FY2024: operating income,-29.39,,10-K filed 24 Jul 2025
+sonder_trend_per_100_revenue,H1 2024: direct costs,65.42,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2024: support and operations,32.34,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2024: left after direct and support,2.24,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2024: sales and marketing,13.69,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2024: overhead and stock pay,21.01,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2024: special lines,0.87,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2024: operating income,-33.33,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2025: direct costs,66.87,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2025: support and operations,28.59,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2025: left after direct and support,4.55,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2025: sales and marketing,12.42,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2025: overhead and stock pay,15.55,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2025: special lines,3.09,,10-Q filed 14 Oct 2025
+sonder_trend_per_100_revenue,H1 2025: operating income,-26.52,,10-Q filed 14 Oct 2025

@@ -1,0 +1,36 @@
+alternative,host_fee_pct,fee_saved_per_stay,host_take,replacement_needed_pct,delivered_form,delivered_measure,population,delivered_per_100_airbnb,delivered_high,shortfall_points,growth_needed_on_current_pct,meets_needed,same_homes,uses_review_counts,source,note
+Booking,15.0,7.0,948.0,99.3,Review proxy,"Reviews on licence-matched homes, as filed","San Diego, Seattle, Hawaii",10.7,,88.5,925.0,No,Yes,Yes,"matched_rows, Inside Airbnb Sep 2026, rival pull 5 Nov 2026","693 homes, Lisbon left out"
+Booking,15.0,7.0,948.0,99.3,Review proxy,"Same, Lisbon included",Four markets,23.6,,75.7,421.0,No,Yes,Yes,matched_rows,810 homes
+Booking,15.0,7.0,948.0,99.3,Review proxy,"Same, median home","San Diego, Seattle, Hawaii",8.3,,90.9,1191.0,No,Yes,Yes,matched_rows,Median of home ratios
+Booking,15.0,7.0,948.0,99.3,Review proxy,"Same, one market",hawaii,23.3,,76.0,427.0,No,Yes,Yes,matched_rows,157 homes
+Booking,15.0,7.0,948.0,99.3,Review proxy,"Same, one market",lisbon,72.6,,26.7,137.0,No,Yes,Yes,matched_rows,117 homes
+Booking,15.0,7.0,948.0,99.3,Review proxy,"Same, one market",san_diego,10.7,,88.6,926.0,No,Yes,Yes,matched_rows,196 homes
+Booking,15.0,7.0,948.0,99.3,Review proxy,"Same, one market",seattle,7.7,,91.6,1296.0,No,Yes,Yes,matched_rows,340 homes
+Vrbo,12.0,48.0,948.0,95.2,Review proxy,"Reviews on licence-matched homes, as filed","San Diego, Seattle, Hawaii",62.0,,33.1,153.0,No,Yes,Yes,"matched_rows, Inside Airbnb Sep 2026, rival pull 5 Nov 2026","575 homes, Lisbon left out"
+Vrbo,12.0,48.0,948.0,95.2,Review proxy,"Same, Lisbon included",Four markets,50.3,,44.8,189.0,No,Yes,Yes,matched_rows,748 homes
+Vrbo,12.0,48.0,948.0,95.2,Review proxy,"Same, median home","San Diego, Seattle, Hawaii",47.6,,47.6,200.0,No,Yes,Yes,matched_rows,Median of home ratios
+Vrbo,12.0,48.0,948.0,95.2,Review proxy,"Same, one market",hawaii,126.4,,-31.2,75.0,Yes,Yes,Yes,matched_rows,152 homes
+Vrbo,12.0,48.0,948.0,95.2,Review proxy,"Same, one market",lisbon,24.9,,70.3,383.0,No,Yes,Yes,matched_rows,173 homes
+Vrbo,12.0,48.0,948.0,95.2,Review proxy,"Same, one market",san_diego,61.8,,33.4,154.0,No,Yes,Yes,matched_rows,194 homes
+Vrbo,12.0,48.0,948.0,95.2,Review proxy,"Same, one market",seattle,37.0,,58.1,257.0,No,Yes,Yes,matched_rows,229 homes
+Own site,2.9000000000000004,174.0,948.0,84.5,Review proxy,"Same-host repeat stays, as filed",Ten cities,2.0,,82.5,4226.0,No,No,Yes,"findings, same-host repeat 1.69% to 2.28% of 2025 stays","Measures repeat stays on Airbnb, with no own-site bookings in it"
+Vrbo,12.0,48.0,948.0,95.2,Channel share,"Reservations on Vrbo, Q2 2026",US professionally managed homes,39.2,,55.9,243.0,No,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026",Before the 29 Oct fee change
+Booking,15.0,7.0,948.0,99.3,Channel share,"Reservations on all other channels, Q2 2026, a ceiling for Booking",US professionally managed homes,15.7,,83.6,633.0,No,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026","All other, by subtraction, so Booking is at or below this"
+Own site,2.9000000000000004,174.0,948.0,84.5,Channel share,"Direct reservations, Q2 2026",US professionally managed homes,41.2,,43.3,205.0,No,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026",Airbnb direct links may count as Airbnb
+Own site,2.9000000000000004,174.0,948.0,84.5,Channel share,"Direct reservations, Q2 2025",US professionally managed homes,53.2,,31.3,159.0,No,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026",Before the single fee
+Vrbo,12.0,48.0,948.0,95.2,Channel share,"Revenue on Vrbo, Q2 2026",US professionally managed homes,53.5,,41.7,178.0,No,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026",Before the 29 Oct fee change
+Booking,15.0,7.0,948.0,99.3,Channel share,"Revenue on all other channels, Q2 2026, a ceiling for Booking",US professionally managed homes,11.6,,87.7,854.0,No,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026","All other, by subtraction, so Booking is at or below this"
+Own site,2.9000000000000004,174.0,948.0,84.5,Channel share,"Direct revenue, Q2 2026",US professionally managed homes,67.4,,17.1,125.0,No,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026",Airbnb direct links may count as Airbnb
+Own site,2.9000000000000004,174.0,948.0,84.5,Channel share,"Direct revenue, Q2 2025",US professionally managed homes,100.0,,-15.5,85.0,Yes,"Same managers, home level unknown",No,"KeyData Q2 2026 via RedAwning, Sep 2026",Before the single fee
+Booking,15.0,7.0,948.0,99.3,Filing,"Sonder 2024 revenue, Booking against Airbnb, lowest and highest ordering",Sonder units worldwide,54.5,183.3,44.7,182.0,Only at high end,Yes,No,Sonder 10-K FY2024,"Three agencies at 22%, 17%, 12%, unnamed"
+Own site,2.9000000000000004,174.0,948.0,84.5,Filing,Sonder 2024 direct revenue 45.8% against Airbnb at 22% to 12%,Sonder units worldwide,208.2,381.7,-123.7,41.0,Yes,Yes,No,Sonder 10-K FY2024,Includes corporate and sales staff bookings
+Own site,2.9000000000000004,174.0,948.0,84.5,Filing,Vacasa 2024 direct GBV 30% against Airbnb at 42.4% to 35%,Vacasa homes,70.8,85.7,13.8,119.0,Only at high end,Yes,No,Vacasa 10-K FY2024; Airbnb share is the audit estimate,"Airbnb share estimated, not disclosed"
+Vrbo,12.0,48.0,948.0,95.2,Card spend,"Vrbo spend, Mar 2025 to Feb 2026","US card panel, all homes",26.4,,68.8,360.0,No,No,No,"card panel, ratio only",Market level
+Booking,15.0,7.0,948.0,99.3,Card spend,"Booking.com spend, Mar 2025 to Feb 2026, includes hotels",US card panel,22.0,,77.3,451.0,No,No,No,"card panel, ratio only",Pay-at-property guests are missing
+Own site,2.9000000000000004,174.0,948.0,84.5,Card spend,"Vacasa, Evolve, AvantStay and Sonder spend, Mar 2025 to Feb 2026",US card panel,3.9,,80.7,2190.0,No,No,No,"card panel, ratio only","Direct brands only, a floor for own sites"
+Vrbo and Booking pooled,,,948.0,95.2,Calendar,"Blocked forward nights, rival-listed against unlisted homes of the same host, change per 100",seattle,-19.4,,114.5,,No,Same host,No,"Inside Airbnb calendar, keyed rival rows","872 homes, 65 hosts. Booking and Vrbo pooled. Hosts list open homes on rivals, so this is biased low"
+Vrbo and Booking pooled,,,948.0,95.2,Calendar,"Blocked forward nights, rival-listed against unlisted homes of the same host, change per 100",san_diego,-19.2,,114.4,,No,Same host,No,"Inside Airbnb calendar, keyed rival rows","1982 homes, 119 hosts. Booking and Vrbo pooled. Hosts list open homes on rivals, so this is biased low"
+"Vrbo at 8%, before 29 Oct",8.0,103.0,948.0,90.2,Needed sensitivity,,,,,,,,,,,
+Own site with 5% marketing,7.9,105.0,948.0,90.1,Needed sensitivity,,,,,,,,,,,Marketing rate is an assumption
+Host take $600,12.0,48.0,600.0,92.6,Needed sensitivity,,,,,,,,,,,"Vrbo at 12%, higher running costs, assumption"
+"Own site, host take $600",2.9,174.0,600.0,77.6,Needed sensitivity,,,,,,,,,,,"2.9% card cost, higher running costs, assumption"

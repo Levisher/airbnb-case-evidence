@@ -1,0 +1,9 @@
+market,site,homes,airbnb_reviews,rival_reviews,airbnb_ahead,last_12m_beats_rival_lifetime
+hawaii,booking,157.0,6948.0,1616.0,117.0,71.0
+hawaii,vrbo,152.0,6560.0,8292.0,54.0,25.0
+lisbon,booking,117.0,14036.0,10187.0,65.0,16.0
+lisbon,vrbo,173.0,18335.0,4557.0,157.0,89.0
+san_diego,booking,196.0,18242.0,1955.0,192.0,156.0
+san_diego,vrbo,194.0,16680.0,10304.0,117.0,52.0
+seattle,booking,340.0,28246.0,2163.0,320.0,290.0
+seattle,vrbo,229.0,16695.0,6183.0,195.0,124.0
