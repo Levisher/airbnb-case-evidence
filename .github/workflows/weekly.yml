@@ -1,0 +1,20 @@
+name: weekly
+on:
+  schedule:
+    - cron: '30 16 * * 5'   # Friday, after the local supply run pushes its row
+  workflow_dispatch:
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Supply against the figure the note prints
+        run: python homes/weekly/weekly.py
+      - name: Disclosed lines against their triggers
+        run: python ebitda/watch/watch.py
+      - name: Every figure against figures.csv
+        run: python reproduce.py

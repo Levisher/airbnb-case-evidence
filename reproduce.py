@@ -1,7 +1,7 @@
 """Runs every study from the committed tables, compares each result with figures.csv, and fails on any file no claim reaches.
 
 python reproduce.py            run all studies, fail on any mismatch
-python reproduce.py --table    also rewrite the figure table in README.md from figures.csv
+python reproduce.py --table    also rewrite the status table in README.md from figures.csv
 """
 import csv, pathlib, subprocess, sys
 ROOT = pathlib.Path(__file__).resolve().parent
@@ -41,10 +41,12 @@ def compare():
 
 
 def table():
-    rows = sorted(csv.DictReader(open(ROOT / 'figures.csv', encoding='utf-8')), key=lambda r: (ORDER[r['status']], TERMS.index(r['term']), int(r['claim'])))
-    out = ['| Status | Figure | Claim | Term | Sample | Interval | Note prints |', '|---|---|---|---|---|---|---|']
-    for r in rows:
-        out.append(f"| **{r['status']}** | {r['figure']} | {r['claim']} | [{r['term']}]({r['term']}/) | {r['sample']} | {r['interval']} | {r['in_note']} |")
+    rows = list(csv.DictReader(open(ROOT / 'figures.csv', encoding='utf-8')))
+    out = ['| Term | Holding | Weakened | Dropped |', '|---|---|---|---|']
+    n = lambda t, st: sum(r['status'] == st and (t is None or r['term'] == t) for r in rows)
+    for t in TERMS:
+        out.append(f"| [{t}]({t}/) | {n(t, 'holding')} | {n(t, 'weakened')} | {n(t, 'dropped')} |")
+    out.append(f"| **All** | **{n(None, 'holding')}** | **{n(None, 'weakened')}** | **{n(None, 'dropped')}** |")
     s = (ROOT / 'README.md').read_text(encoding='utf-8'); a, b = '<!-- table start -->', '<!-- table end -->'
     (ROOT / 'README.md').write_text(s[:s.index(a) + len(a)] + '\n' + '\n'.join(out) + '\n' + s[s.index(b):], encoding='utf-8')
 

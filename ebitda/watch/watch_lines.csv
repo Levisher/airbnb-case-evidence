@@ -1,0 +1,6 @@
+line,short,period,value,trigger,fail_side,unit,live_from,as_of,source
+"Net take, revenue less brand and performance marketing over GBV","Net take",TTM Q3 2026,11.46,11.33,below,%,2026-11-05,2026-11-05,"10-Q filed 5 November 2026"
+"TTM implied take rate","Take rate",TTM Q3 2026,13.32,13.41,below,%,2026-12-31,2026-11-05,"10-Q filed 5 November 2026, test runs from the end of FY2026"
+"Brand and performance marketing per night","Marketing per night",TTM Q3 2026,3.36,4.26,above,$,2026-11-05,2026-11-05,"10-Q filed 5 November 2026, $5.16 cancels a full point of take"
+"Nights and Seats Booked growth","Nights growth",9M 2026,11.8,2.9,below,%,2026-11-05,2026-11-05,"10-Q filed 5 November 2026, trigger assumes GBV per night up 6.2% again"
+"TTM Adjusted EBITDA margin","EBITDA margin",TTM Q3 2026,36.4,35.1,below,%,2026-11-05,2026-11-05,"10-Q filed 5 November 2026, FY2025 margin is the floor"

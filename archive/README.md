@@ -6,4 +6,6 @@ These scripts are the record of how the committed tables were made. They read fi
 - `audit/` holds the scripts that first produced each audit result.
 - `price_map/`, `rival_overlap/` and `operating_leverage/` hold the upstream analysis those scripts call.
 
+`weekly_sitemap.py` is the Friday collector behind `homes/weekly`.
+
 Local paths were shortened and the card panel vendor's name was removed. Keys were always read from a local file, and none is here. Collection scripts for the rival pulls are left out.

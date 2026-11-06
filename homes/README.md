@@ -96,3 +96,14 @@ Back to the [walk through the equation](../README.md).
 - **Cannot establish.** Its own build. The script that made this table was not kept, so its panel and its first-owner test cannot be re-derived.
 - **Test against it.** None could be run. The figure stays in the ledger as weakened until the table is rebuilt.
 - **Files.** [new_owners.py](new_owners/new_owners.py), [new_home_owner.csv](new_owners/new_home_owner.csv)
+
+## Supply tracked every week
+
+![Supply tracked every week](weekly/weekly.png)
+
+- **Sample.** Airbnb's published sitemap index and its listing-url files, read in full every Friday. The run on 6 November 2026 read 139 files and found 6,932,197 unique ids.
+- **Interval.** None. These are counts of ids in files read in full.
+- **Cannot establish.** Bookable supply. A sitemap entry says nothing on whether a home is live or sells, and the sitemap holds 6.93m of about 10.47m viewable listings.
+- **Test against it.** One worker, a nine-second gap and no retries, so the first 429 or challenge page stops the run, and a stopped run stays out of the series. The study fails when the count drifts more than 5% from the 6,934,269 in the November 2026 sitemap, when churn passes 10%, when the run raises its own layout flag, or when the last run is over 10 days old. The first reading covers the two days from 4 to 6 November: 30,538 ids new, 32,610 gone, 0.91% churn.
+- **Data note.** `weekly_counts.csv` holds one row per run: counts, churn and the stop reason. No listing id is in the repo.
+- **Files.** [weekly.py](weekly/weekly.py), [weekly_counts.csv](weekly/weekly_counts.csv), [weekly_sitemap.py](../archive/weekly_sitemap.py)

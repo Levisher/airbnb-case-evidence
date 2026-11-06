@@ -34,3 +34,14 @@ Back to the [walk through the equation](../README.md).
 - **Test against it.** Year-on-year margin swings above 5 points, and whether volume rebuilds reported revenue.
 - **Data note.** Ratios only. Compustat line items stay out, so counts here rebuild from `nine_frame_ratios.csv` and `nine_growth.csv`.
 - **Files.** [nine_models.py](nine_models/nine_models.py), [nine_frame_ratios.csv](nine_models/nine_frame_ratios.csv), [nine_growth.csv](nine_models/nine_growth.csv)
+
+## The five disclosed lines that would break the pick
+
+![The five disclosed lines that would break the pick](watch/watch.png)
+
+- **Sample.** Net take, TTM implied take rate, brand and performance marketing per night, Nights and Seats Booked growth and TTM Adjusted EBITDA margin, all from the 10-Q filed 5 November 2026.
+- **Interval.** None. These are filed figures measured against triggers set on 6 November 2026.
+- **Cannot establish.** Whether a trigger is the right level. The triggers are the author's own arithmetic on filed lines, and the nights trigger assumes GBV per night rises 6.2% again.
+- **Test against it.** The script fails when a live line passes its trigger on the failure side, so a breach stops the weekly run. Net take holds 1.15% of headroom to its 11.33% floor and is the nearest of the four live lines. Take rate at 13.32% already sits under the 13.41% floor, and that test runs from the end of FY2026, so it reads grey until then.
+- **Data note.** `watch_lines.csv` carries the reading, the trigger, the failure side, the date each test goes live and the filing it comes from. Update it when a 10-Q lands.
+- **Files.** [watch.py](watch/watch.py), [watch_lines.csv](watch/watch_lines.csv)

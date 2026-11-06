@@ -1,0 +1,2 @@
+run_date,status,stop_reason,files_listed,files_read,total_ids,ids_new,ids_gone,net_change,net_change_pct,churn_rate_pct,file_change_pct,total_change_pct,layout_flag,previous_run,vs_nov_2026_pct,segments
+2026-11-06,complete,,139,139,6932197,30538,32610,-2072,-0.0299,0.9107,0.0,-0.0299,0,2026-11-04,-0.0299,"{""homes"": 6932197}"
